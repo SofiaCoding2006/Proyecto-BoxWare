@@ -1,0 +1,145 @@
+body {
+    background-color: #f8f9fa;
+}
+.sidebar {
+    background: linear-gradient(rgb(5, 182, 23),#00740c);
+    min-height: 100vh;
+    padding-top: 20px;
+    border: 2px solid rgba(0, 255, 25, 1);
+}
+.sidebar a {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.sidebar a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    border-radius: 10px;
+}
+.topbar {
+    background: linear-gradient(#00740c,rgb(5, 182, 23));
+    padding: 10px;
+    color: #fff;
+    border: 2px solid rgba(0, 255, 25, 1);
+}
+.search-box {
+    max-width: 300px;
+}
+.text-black {
+    color: black;
+}
+.pagination-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.att {
+    text-align: center;
+}
+.linea{
+    border-top: 1px solid black;
+    width: 80%;
+    margin: 20px 0px 0px 20px;
+    margin-top: -2px;
+}
+.linea1{
+    border-top: 2px solid black;
+    width: 80%;
+    margin: 20px auto;
+}
+.linea2{
+    border-top: 1px solid black;
+    width: 80%;
+    margin: 20px 0px 0px 20px;
+    margin-top: 290px;
+}
+.pdf{
+    margin-left: 980px;
+}
+a:hover{
+    color: black;
+}
+.sidebar {
+    width: 250px;
+    transition: width 0.3s;
+}
+
+.sidebar.collapsed {
+    width: 80px;
+}
+
+.main-content {
+    flex-grow: 1;
+    transition: margin-left 0.3s;
+}
+
+.collapsed ~ .main-content {
+    margin-left: 80px;
+}
+
+.link-text {
+    margin-left: 10px;
+}
+
+/* Adjust icons and logo size */
+.sidebar i {
+    font-size: 24px; /* Size for the toggle button icon */
+}
+
+/* Adjust link icons */
+.nav-link .bi {
+    font-size: 20px; /* Size for icons */
+}
+#logo {
+    width: 120px; /* Puedes ajustar el tamaño si es necesario */
+    height: auto;
+    margin-right: auto;
+
+}
+#toggle-btn {
+    cursor: pointer; 
+    font-size: 24px; 
+}
+/* Bordes verdes en los campos */
+.form-control.border-success, .form-select.border-success {
+    border: 2px solid #28a745; /* Verde éxito */
+    border-radius: 0.25rem;
+}
+
+/* Estilos del título */
+.modal-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Fondo verde en el título */
+.modal-header {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Botones */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+/* Botón de cerrar */
+.btn-close {
+    color: white;
+    opacity: 0.8;
+}
+
+/* Sombra para el modal */
+.modal-content {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
