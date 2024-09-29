@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOXWARE</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+    <link rel="stylesheet" href="/Frontend/src/static/css/elementos1.css">
+</head>
+<body>
+
+<!-- Main Container --> 
+<div class="d-flex">
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar d-flex flex-column">
+        <div class="d-flex align-items-center justify-content-center mb-3">
+            <img src="/Frontend/public/BoxWare (4).png" alt="Logo" id="logo" style="width: 120px; height: auto;">
+            <i id="toggle-btn" class="text-black bi bi-list-ul me-3" style="cursor: pointer; font-size: 24px;"></i>
+        </div>
+        <div class="att">
+            <span id="admin-text" class="ml-2">Administrador</span>
+        </div>
+        <div class="linea"></div>
+        
+        <a href="#" class="text-black bi bi-people mr-2 mb-2 mt-4 nav-link">
+            <span class="link-text">Usuarios</span>
+        </a>
+        <a href="/Frontend/src/modulos/elementos/elemenos1.html" class="text-black bi bi-box-seam mr-2 mb-2 nav-link">
+            <span class="link-text">Elementos</span>
+        </a>
+        <a href="#" class="text-black bi bi-file-earmark-text mr-2 mb-2 nav-link">
+            <span class="link-text">Reportes</span>
+        </a>
+        <a href="#" class="text-black bi bi-geo-alt mr-2 mb-2 nav-link">
+            <span class="link-text">Municipios</span>
+        </a>
+        <a href="/Frontend/src/modulos/centros/centro.html" class="text-black bi bi-house-door mr-2 mb-2 nav-link">
+            <span class="link-text">Centros</span>
+        </a>
+        <a href="/Frontend/src/modulos/sedes/sede.html" class="text-black bi bi-file-earmark mr-2 mb-2 nav-link">
+            <span class="link-text">Sedes</span>
+        </a>
+
+        <div class="linea2"></div>
+        <div class="mt-auto">
+            <a href="/Frontend/src/modulos/perfil/perfil.html" class="text-black bi bi-person-circle pt-2 nav-link">
+                <span class="link-text">Perfil</span>
+            </a>
+            <a href="#" class="text-black bi bi-box-arrow-right mr-2 nav-link">
+                <span class="link-text">Cerrar Sesión</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="flex-grow-1">
+        <!-- Topbar -->
+        <div class="topbar d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center"></div>
+            <div class="d-flex align-items-center">
+                <!-- Barra de búsqueda -->
+<div class="input-group">
+    <input type="text" class="form-control search-box" placeholder="Buscar">
+    <span class="input-group-text"><i class="bi bi-search"></i></span>
+</div>
+
+
+                <!-- Botón de la campana -->
+                <button class="btn position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#notificationPanel" aria-expanded="false" aria-controls="notificationPanel">
+                    <i class="text-black bi-bell-fill ms-2"></i>
+                    <!-- Indicador de notificaciones (opcional) -->
+                    <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Panel de Notificaciones flotante -->
+        <div class="position-relative">
+            <div class="collapse position-absolute end-0 mt-2 me-2" id="notificationPanel" style="width: 350px; z-index: 1000;">
+                <div class="card card-body shadow">
+                    <h5 class="card-title">Notificaciones</h5>
+                    <!-- Notificación 1 -->
+                    <div class="alert alert-light border d-flex justify-content-between align-items-center">
+                        <div>
+                            <i class="bi bi-exclamation-circle text-success"></i>
+                            <strong class="text-success">Stock</strong> Se están agotando las dotaciones de botas para los aprendices de PAE.
+                            <small class="text-muted">5 min</small>
+                        </div>
+                        <div>
+                            <button class="btn btn-success btn-sm">Inspeccionar</button>
+                            <button class="btn btn-light btn-sm">Eliminar</button>
+                        </div>
+                    </div>
+                    <!-- Notificación 2 -->
+                    <div class="alert alert-light border d-flex justify-content-between align-items-center">
+                        <div>
+                            <i class="bi bi-exclamation-triangle text-danger"></i>
+                            <strong class="text-danger">Caducidad</strong> Esta pronta a vencerse la leche del área de gastronomía.
+                            <small class="text-muted">9 h</small>
+                        </div>
+                        <div>
+                            <button class="btn btn-success btn-sm">Inspeccionar</button>
+                            <button class="btn btn-light btn-sm">Eliminar</button>
+                        </div>
+                    </div>
+                    <!-- Botón para ver notificaciones anteriores -->
+                    <div class="d-grid">
+                        <button class="btn btn-light">Ver notificaciones anteriores</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center my-3 mt-5">
+            <h2>Los elementos se ecuentran  organizados por áreas</h2>
+        </div> 
+        <div class="linea1"></div>
+        
+        <div class="container-area">
+            <a href="/Frontend/src/modulos/elementos/agropecuaria.html"><button type="button" class="btn btn-custom agropecuaria">Agropecuaria</button></a>
+            <a href="/Frontend/src/modulos/elementos/tic´s.html"><button type="button" class="btn btn-custom tic">Tic’s</button></a>
+            <a href="/Frontend/src/modulos/elementos/ambiental.html"><button type="button" class="btn btn-custom ambiental">Ambiental</button></a>
+            <a href="/Frontend/src/modulos/elementos/gastronimia.html"><button type="button" class="btn btn-custom gastronomia">Gastronomia</button></a>
+            <a href="/Frontend/src/modulos/elementos/construccion.html"><button type="button" class="btn btn-custom gastronomia">Construccion</button></a>
+        </div>
+
+
+<!-- Bootstrap JS and Dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="/Frontend/src/static/js/sidebar.js"></script>
+</body>
+</html>
