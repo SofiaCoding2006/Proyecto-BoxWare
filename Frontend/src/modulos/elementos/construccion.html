@@ -40,12 +40,28 @@
         <a href="/Frontend/src/modulos/elementos/elemenos1.html" class="text-white bi bi-box-seam mr-2 mb-2 nav-link">
             <span class="link-text">Elementos</span>
         </a>
-        <a href="#" class="text-white bi bi-file-earmark-text mr-2 mb-2 nav-link">
-            <span class="link-text">Reportes</span>
-        </a>
-        <a href="#" class="text-white bi bi-geo-alt mr-2 mb-2 nav-link">
-            <span class="link-text">Municipios</span>
-        </a>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="collapse" href="#productsSubmenu" role="button" aria-controls="productsSubmenu" aria-expanded="false">
+                    <i class="bi bi-file-earmark-text"></i> Reportes
+                    <i class="fas fa-chevron-down float-end"></i>
+                </a>
+            </li>
+            <div class="collapse" id="productsSubmenu">
+                <ul class="nav flex-column ml-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/frontend/src/modulos/reportes/entrada.html">
+                            <i class="bi bi-box-arrow-in-left"></i> Entrada
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/frontend/src/modulos/reportes/salida.html">
+                            <i class="bi bi-box-arrow-right"></i> Salida
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </ul>
         <a href="/Frontend/src/modulos/centros/centro.html" class="text-white bi bi-house-door mr-2 mb-2 nav-link">
             <span class="link-text">Centros</span>
         </a>

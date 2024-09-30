@@ -130,6 +130,12 @@ a .nav-link .bi  {
     width: 1050px;
     margin: 10px 200px 0px -90px;
 }
+.pdf{
+    margin-left: 980px;
+}
+.att{
+    color:#fff;
+}
 /* Bordes verdes en los campos */
 .form-control.border-success, .form-select.border-success {
     border: 2px solid #28a745; /* Verde éxito */
