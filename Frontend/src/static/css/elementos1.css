@@ -65,11 +65,10 @@ body {
     margin: 20px 0px 0px 20px;
     margin-top: -2px;
 }
-.linea2{
-    border-top: 1px solid black;
+.linea1{
+    border-top: 2px solid black;
     width: 80%;
-    margin: 20px 0px -90px 20px;
-    margin-top:60px;
+    margin: 20px auto;
 }
 
 a:hover{
