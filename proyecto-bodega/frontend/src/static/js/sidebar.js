@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded",()=>{
     //funcion para cargar el archivo idioma
     function loadLanguaje(lang){
         console.log(`cargando idioma:$(lang)`);
-        fetch(`../../direcion de lo jeison/$(lang).json`)
+        fetch(`../../direcion del jeison/$(lang).json`)
         .then((response)=>response.json())
         .then((data)=>{
             document.querySelectorAll("[data-translate]").forEach((element)=>{
