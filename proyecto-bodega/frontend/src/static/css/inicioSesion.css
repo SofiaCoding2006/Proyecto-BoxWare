@@ -42,6 +42,9 @@ h4{
 .container-mt-5 .btn-custom:hover{
     background-color: rgb(25, 185, 41);
 }
+button{
+    color: white;
+}
 
 .card-footer{
     font-size:10px ;

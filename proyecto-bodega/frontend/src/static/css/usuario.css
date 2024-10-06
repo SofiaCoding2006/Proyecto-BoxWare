@@ -2,13 +2,13 @@ body {
     background-color: #e2e6e2;
 }
 .sidebar {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     min-height: 100vh;
     border: 2px solid rgb(140, 144, 140);
     box-shadow: 1px 0px 10px gray;
 }
 .sidebar a {
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     padding: 10px 20px;
     display: flex;
@@ -32,7 +32,7 @@ body {
     background: linear-gradient(#0fac1f,rgb(5, 182, 23));
     padding: 10px;
     color: #fff;
-    border: 2px solid rgba(0, 255, 25, 1);
+    border: 2px solid rgb(255, 255, 255);
     box-shadow: 1px 4px 10px gray ;
 
 }
@@ -40,13 +40,13 @@ body {
     max-width: 300px;
 }
 .link-text {
-    color: #e2e6e2;
+    color: #000000;
 }
 .nav-link{
-    color: #e2e6e2;
+    color: #121212;
 }
 .text-black {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .pagination-container {
     display: flex;
