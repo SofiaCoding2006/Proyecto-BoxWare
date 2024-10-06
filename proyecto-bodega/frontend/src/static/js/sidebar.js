@@ -29,3 +29,31 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+//Cofiguracion del idioma
+window.addEventListener("DOMContentLoaded",()=>{
+    //funcion para cargar el archivo idioma
+    function loadLanguaje(lang){
+        console.log(`cargando idioma:$(lang)`);
+        fetch(`../../direcion de lo jeison/$(lang).json`)
+        .then((response)=>response.json())
+        .then((data)=>{
+            document.querySelectorAll("[data-translate]").forEach((element)=>{
+                const translatekey =element.getAttribute("data-translate");
+                if (data[translatekey]){
+                    element.textContent=date[translatekey]//Remplazar el contenido para traducir
+                }
+            })
+        })
+        .catch((error)=>
+            console.error("Error al cargar el archivo de idioma:",error)
+        );
+    }
+    documen.querySelectorAll  (".menu-item").forEach((item)=>{
+        item.addEventListener("onclik",function(eyent){
+            const selectedlang = item.getAttribute("data-lang");
+            console.log(`Idioma seleccionado: ${selectedLang}`);
+            document.querySelector("selected-lang").textContent=item.textContent;
+            loadLanguaje(selectedLang)
+        })
+    })
+})
