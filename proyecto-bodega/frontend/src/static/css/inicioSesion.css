@@ -1,0 +1,75 @@
+.card{
+    width: 20rem;
+}
+.card-body{
+    border:1.3px solid rgba(0, 153, 15, 1);
+    border-radius: 20px;
+    box-shadow: 0px 12px 20px rgba(128, 128, 128, 0.552);
+}
+.container_logo{
+    display: flex;
+    width: 8rem;
+    margin: -20px 80px -20px 80px ;
+}
+.container-logo-div{
+    display: flex;
+    background-color: rgba(0, 153, 15, 1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.card.container-logo-div{
+    display: flex;
+    margin: 5px 0px 60px 0px;
+}
+h4{
+    font-size: 30px;
+}
+.form-label{
+    margin-top: 20px;
+}
+/*input*/
+.mb-3 .form-control{
+    border: 1.3px solid rgba(0, 153, 15, 1);
+}
+/* Boton*/
+.container-mt-5  .btn-custom{
+    width: 100%;
+    background-color: rgba(0, 153, 15, 1);
+    margin-top: 10px;
+    text-decoration: none;
+}
+.container-mt-5 .btn-custom:hover{
+    background-color: rgb(25, 185, 41);
+}
+button{
+    color: white;
+}
+
+.card-footer{
+    font-size:10px ;
+}
+.form-link1{
+    margin-left: -10px;
+    margin-right: 50px;
+    color:rgba(0, 0, 0, 1);
+}
+.form-link2{
+    color:rgba(0, 0, 0, 1);
+}
+/*Icon eye*/
+.password-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.password-icon {
+    display: flex;
+    align-items: center;
+}
+.password-icon i {
+    position: absolute;
+    right: 30px;
+    margin-top: 2px;
+}
+
