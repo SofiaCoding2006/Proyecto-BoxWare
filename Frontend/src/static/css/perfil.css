@@ -1,0 +1,149 @@
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 0px;
+}
+
+.profile-form {
+    border: 2px solid rgba(0, 255, 25, 1);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(232, 230, 230);
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 255, 25, 1);
+}
+
+.edit-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #4CAF50;
+    margin-left: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;   
+}
+
+.form-control {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border: 2px solid rgba(0, 255, 25, 1);
+}
+
+.btn-success {
+    width: 30%;
+    padding: 10px;
+    background-color: rgba(3, 187, 21, 1);
+    color: black;
+    border-radius: 10px;
+}
+
+.btn-success:hover {
+    background-color: rgba(3, 187, 21, 1);
+}
+.lineaa{
+    border-top: 1px solid black;
+    width: 90%;
+    margin: 30px 20px 30px 20px;
+    margin-top: -5px;
+}
+.bi-gear{
+    border-radius: 50px;
+}
+.perfil{
+    margin: 5px 0px 0px 175px;
+}
+.ajustes button {
+    background-color:rgb(189, 189, 189); /* Fondo transparente */
+    border-radius: 50%; /* Sin borde */
+    border-color:rgb(189, 189, 189);
+    cursor: pointer; /* Cambia el cursor al pasar */
+    margin-left: 380px;
+}
+.ajustes button:hover {
+    background-color:rgb(189, 189, 189); /* Fondo al pasar el mouse */
+    border-radius: 50%; /* Borde redondeado */
+}
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -35px 0; /* Margen superior e inferior */
+}
+.perfil button {
+    background-color:rgb(189, 189, 189); /* Color del botón */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Bordes redondeados */
+    padding: 7px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar */
+    margin-left: 60px;
+    margin-top: -50px;
+}
+.perfil button:hover {
+    background-color:rgb(189, 189, 189); /* Color al pasar el mouse */
+    color: black; /* Color del ícono al pasar el mouse */
+    
+}
+/* Ajuste de la posición del menú desplegable */
+.ajustes .dropdown-menu {
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 255, 25, 1);
+}
+
+/* Estilos de los íconos dentro del menú */
+.dropdown-item i {
+    margin-right: 8px;
+}
+/* Ocultar la flecha del botón de dropdown */
+.ajustes .dropdown-toggle::after {
+    display: none;
+}
+#logo {
+    width: 120px; /* Puedes ajustar el tamaño si es necesario */
+    height: auto;
+    margin-right: auto;
+}
+#toggle-btn {
+    cursor: pointer; 
+    font-size: 24px; 
+}
+/* Estilo para el campo de búsqueda */
+.search-box {
+    padding-right: 2.5rem; /* Espacio para el icono dentro del campo */
+}
+
+/* Posicionamiento del icono dentro del campo de búsqueda */
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Alineado hacia la derecha del campo */
+    transform: translateY(-40%);
+    font-size: 1.25rem; /* Ajusta el tamaño del ícono */
+    color: #000000; /* Color del icono */
+    pointer-events: none; /* Para que el icono no interfiera con la interacción del input */
+}
